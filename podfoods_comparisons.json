@@ -1,0 +1,194 @@
+[
+  {
+    "query": "apple",
+    "queryType": "typo-tolerance test",
+    "currentSearch": {
+      "image": "https://hackmd.io/_uploads/SyPTIllq0.png",
+      "alt": "podfoods-objective_apple_2024_08_06",
+      "link": "https://podfoods.co/products?term=apple"
+    },
+    "trieveSearch": {
+      "image": "https://hackmd.io/_uploads/S1db3mxq0.png",
+      "alt": "podfoods-trieve_apple_2024_08_06",
+      "link": "https://podfoods.trieve.ai/?term=apple"
+    },
+    "comparison": {
+      "text": ""
+    },
+    "queryVariants": [
+      {
+        "query": "applee",
+        "currentSearch": {
+        "image": "https://hackmd.io/_uploads/B1OpUgxqR.png",
+        "alt": "podfoods-objective_applee_2024_08_06",
+        "link": "https://podfoods.co/products?term=applee"
+        },
+        "trieveSearch": {
+        "image": "https://hackmd.io/_uploads/H1OW3XlcA.png",
+        "alt": "podfoods-trieve_applee_2024_08_06",
+        "link": "https://podfoods.trieve.ai/?term=applee"
+        }
+      }
+    ]
+  },
+  {
+    "query": "Arizona",
+    "queryType": "location",
+    "currentSearch": {
+      "image": "https://hackmd.io/_uploads/BJ_TLggcC.png",
+      "alt": "podfoods-objective_Arizona_2024_08_06",
+      "link": "https://podfoods.co/products?term=Arizona"
+    },
+    "trieveSearch": {
+      "image": "https://hackmd.io/_uploads/SJ_Znmg9C.png",
+      "alt": "podfoods-trieve_Arizona_2024_08_06",
+      "link": "https://podfoods.trieve.ai/?term=Arizona"
+    }
+  },
+  {
+    "query": "Austin boutique tea yerba",
+    "queryType": "short descriptive",
+    "currentSearch": {
+      "image": "https://hackmd.io/_uploads/SyluTLllc0.png",
+      "alt": "podfoods-objective_Austin_boutique_tea_yerba_2024_08_06",
+      "link": "https://podfoods.co/products?term=Austin%20boutique%20tea%20yerba"
+    },
+    "trieveSearch": {
+      "image": "https://hackmd.io/_uploads/B1Ob3meqC.png",
+      "alt": "podfoods-trieve_Austin_boutique_tea_yerba_2024_08_06",
+      "link": "https://podfoods.trieve.ai/?term=Austin%20boutique%20tea%20yerba"
+    }
+  },
+  {
+    "query": "grapefruit weird yerba",
+    "queryType": "short descriptive",
+    "currentSearch": {
+      "image": "https://hackmd.io/_uploads/Sygu6Igeq0.png",
+      "alt": "podfoods-objective_grapefruit_weird_yerba_2024_08_06",
+      "link": "https://podfoods.co/products?term=grapefruit%20weird%20yerba"
+    },
+    "trieveSearch": {
+      "image": "https://hackmd.io/_uploads/HJKW2Qx5R.png",
+      "alt": "podfoods-trieve_grapefruit_weird_yerba_2024_08_06",
+      "link": "https://podfoods.trieve.ai/?term=grapefruit%20weird%20yerba"
+    },
+    "comparison": {
+      "text": ""
+    }
+  },
+  {
+    "query": "toaster pastries",
+    "queryType": "short descriptive",
+    "currentSearch": {
+        "image": "https://hackmd.io/_uploads/By_p8lxcR.png",
+        "alt": "podfoods-objective_toaster_pastries_2024_08_06",
+        "link": "https://podfoods.co/products?term=toaster%20pastries"
+    },
+    "trieveSearch": {
+        "image": "https://hackmd.io/_uploads/SkObnXe9R.png",
+        "alt": "podfoods-trieve_toaster_pastries_2024_08_06",
+        "link": "https://podfoods.trieve.ai/?term=toaster%20pastries"
+    },
+    "comparison": {
+      "text": ""
+    },
+    "queryVariants": [
+      {
+        "query": "healthy toaster pastries",
+        "queryType": "short descriptive",
+        "currentSearch": {
+        "image": "https://hackmd.io/_uploads/SJl_TLxe50.png",
+        "alt": "podfoods-objective_healthy_toaster_pastries_2024_08_06",
+        "link": "https://podfoods.co/products?term=healthy%20toaster%20pastries"
+        },
+        "trieveSearch": {
+        "image": "https://hackmd.io/_uploads/SyOb2XlqC.png",
+        "alt": "podfoods-trieve_healthy_toaster_pastries_2024_08_06",
+        "link": "https://podfoods.trieve.ai/?term=healthy%20toaster%20pastries"
+        }
+      },
+    {
+        "query": "natural toaster pastries",
+        "currentSearch": {
+        "image": "https://hackmd.io/_uploads/r1z_68lgcA.png",
+        "alt": "podfoods-objective_natural_toaster_pastries_2024_08_06",
+        "link": "https://podfoods.co/products?term=natural%20toaster%20pastries"
+        },
+        "trieveSearch": {
+        "image": "https://hackmd.io/_uploads/rJOZn7e9C.png",
+        "alt": "podfoods-trieve_natural_toaster_pastries_2024_08_06",
+        "link": "https://podfoods.trieve.ai/?term=natural%20toaster%20pastries"
+        }
+      },
+    {
+        "query": "real fruit toaster pastries",
+        "currentSearch": {
+        "image": "https://hackmd.io/_uploads/SkG_T8egcC.png",
+      "alt": "podfoods-objective_real_fruit_toaster_pastries_2024_08_06",
+      "link": "https://podfoods.co/products?term=real%20fruit%20toaster%20pastries"
+    },
+    "trieveSearch": {
+      "image": "https://hackmd.io/_uploads/Hk_ZnQl50.png",
+      "alt": "podfoods-trieve_real_fruit_toaster_pastries_2024_08_06",
+      "link": "https://podfoods.trieve.ai/?term=real%20fruit%20toaster%20pastries"
+      }
+    }
+]
+  },
+  {
+    "query": "Orange Blossom Almond tea",
+    "queryType": "specific product variant",
+    "currentSearch": {
+      "image": "https://hackmd.io/_uploads/r1-O68egqC.png",
+      "alt": "podfoods-objective_Orange_Blossom_Almond_tea_2024_08_06",
+      "link": "https://podfoods.co/products?term=Orange%20Blossom%20Almond%20tea"
+    },
+    "trieveSearch": {
+      "image": "https://hackmd.io/_uploads/S1dWh7g5R.png",
+      "alt": "podfoods-trieve_Orange_Blossom_Almond_tea_2024_08_06",
+      "link": "https://podfoods.trieve.ai/?term=Orange%20Blossom%20Almond%20tea"
+    }
+  },
+  {
+    "query": "organic fair-trade cacao Peru coconut sugar raw cacao butter dark chocolate",
+    "queryType": "keywords from description",
+    "currentSearch": {
+      "image": "https://hackmd.io/_uploads/rk-uaUxe5A.png",
+      "alt": "podfoods-objective_organic_fair-trade_cacao_Peru_coconut_sugar_raw_cacao_butter_dark_chocolate_2024_08_06",
+      "link": "https://podfoods.co/products?term=organic%20fair-trade%20cacao%20Peru%20coconut%20sugar%20raw%20cacao%20butter%20dark%20chocolate"
+    },
+    "trieveSearch": {
+      "image": "https://hackmd.io/_uploads/BJdWnXec0.png",
+      "alt": "podfoods-trieve_organic_fair-trade_cacao_Peru_coconut_sugar_raw_cacao_butter_dark_chocolate_2024_08_06",
+      "link": "https://podfoods.trieve.ai/?term=organic%20fair-trade%20cacao%20Peru%20coconut%20sugar%20raw%20cacao%20butter%20dark%20chocolate"
+    }
+  },
+  {
+    "query": "Our unique nib-to-bar process begins with the finest organic, fair-trade, single-origin cacao sourced directly from Peru, mineral-rich coconut sugar, and luscious raw cacao butter stone ground at low temperatures. Our signature raw chocolate base is then infused with just the right touch of pure peppermint essence for a mint chocolate bar like none other. Essentially.…purebliss with everybite.",
+    "queryType": "long direct description",
+    "currentSearch": {
+      "image": "https://hackmd.io/_uploads/BJxuTLxg90.png",
+      "alt": "podfoods-objective_Our_unique_nib-to-bar_process_begins_with_the_fine_8f57d13a_2024_08_06",
+      "link": "https://podfoods.co/products?term=Our%20unique%20nib-to-bar%20process%20begins%20with%20the%20fine"
+    },
+    "trieveSearch": {
+      "image": "https://hackmd.io/_uploads/ryubnml50.png",
+      "alt": "podfoods-trieve_Our_unique_nib-to-bar_process_begins_with_the_fine_8f57d13a_2024_08_06",
+      "link": "https://podfoods.trieve.ai/?term=Our%20unique%20nib-to-bar%20process%20begins%20with%20the%20fine"
+    }
+  },
+  {
+    "query": "raw honey bars",
+    "queryType": "specific ingrediant + form",
+    "currentSearch": {
+      "image": "https://hackmd.io/_uploads/SyZOT8xlc0.png",
+      "alt": "podfoods-objective_raw_honey_bars_2024_08_06",
+      "link": "https://podfoods.co/products?term=raw%20honey%20bars"
+    },
+    "trieveSearch": {
+      "image": "https://hackmd.io/_uploads/HJuW3XecA.png",
+      "alt": "podfoods-trieve_raw_honey_bars_2024_08_06",
+      "link": "https://podfoods.trieve.ai/?term=raw%20honey%20bars"
+    }
+  }
+]
