@@ -25,7 +25,7 @@
     <b>Trieve Pod Foods Discovery Project</b>
 </h2>
 
-![Trieve OG tag](https://cdn.trieve.ai/github/trieve-podfoods-demo-screenshot.webp)
+![Screenshot of a search for [Texas boutique tea yerba] on podfoods.trieve.ai](https://cdn.trieve.ai/github/trieve-podfoods-demo-screenshot.webp)
 
 Preview the output of this project at [podfoods.trieve.ai](https://podfoods.trieve.ai)
 
