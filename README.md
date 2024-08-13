@@ -37,7 +37,7 @@ Pod Foods is currently disrupting grocery distribution with their marketplace en
 
 ### Search For More Bespoke, Health-Oriented, and New Products is a Fun Challenge
 
-Keyword search is enough for the vast majority of queries when someone knows what they're looking for, but less so when you're exploring. Pod Foods is really interesting because they are likely to have a significant number of users exploring more-so than checking if a specific item is present.
+Keyword search is enough for the vast majority of queries when someone knows what they're looking for, but less so when you're exploring. Pod Foods is really interesting because they are likely to have a significant number of users **exploring** more-so than checking if a specific item is present.
 
 Trieve provides vector based search for semantic, fulltext, and hybrid modes which is uniquely well-suited to Pod Foods' dataset.
 
