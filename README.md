@@ -1,5 +1,5 @@
 <p align="center">
-  <img height="100" src="https://cdn.trieve.ai/trieve-logo.png" alt="Trieve Logo">
+  <img height="100" src="https://cdn.trieve.ai/trieve-logo.png?" alt="Trieve Logo">
 </p>
 <p align="center">
 <strong><a href="https://dashboard.trieve.ai">Sign Up (1k chunks free)</a> | <a href="https://docs.trieve.ai">Documentation</a> | <a href="https://cal.com/nick.k/meet">Meet With a Founder</a> | <a href="https://discord.gg/eBJXXZDB8z">Discord</a> | <a href="https://matrix.to/#/#trieve-general:trieve.ai">Matrix</a>
