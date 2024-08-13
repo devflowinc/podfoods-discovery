@@ -38,7 +38,7 @@ const handleInput = (event: Event) => {
     <div data-v-4321adf5="" class="search-box__input el-input el-input-group el-input-group--append"
     style="border-color: rgb(217, 70, 239);">
         <input v-model="searchTerm" type="search" autocomplete="off"
-            placeholder="Search for products, SKUs, UPC, EAN..." class="el-input__inner"
+            placeholder="Search for any Pod Foods product..." class="el-input__inner"
             @input="handleInput"
             @focus="$emit('update:isFocused', true)" @blur="$emit('update:isFocused', false)">
         <div class="el-input-group__append"><span data-v-4321adf5="" class="vam"><i data-v-4321adf5=""
