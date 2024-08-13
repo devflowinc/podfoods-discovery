@@ -1,4 +1,5 @@
 import { ref, provide, inject, watch, type Ref } from 'vue'
+import { groupOrientedSearch, scrollChunks } from '../utils/search'
 
 interface SearchContext {
   searchTerm: Ref<string>
@@ -97,13 +98,11 @@ export function provideSearchContext() {
     context.error.value = null
     console.log('Searching for:', query)
     try {
-      const filters = encodeURIComponent(JSON.stringify(context.tagFilters.value.map(tag => tag.label)))
-      const response = await fetch(`/api/search?q=${encodeURIComponent(query)}&pages=${context.pages.value}&searchType=${context.searchType.value}&filters=${filters}`)
+      const filters = context.tagFilters.value.map(tag => tag.label)
+      const response = await groupOrientedSearch(query, context.pages.value, context.searchType.value, filters)
       console.log('Search response:', response)
-      if (!response.ok) {
-        throw new Error('Search request to internal server failed')
-      }
-      const data = await response.json()
+      
+      const data = await response
       console.log('Search data:', data)
       context.results.value = data
     } catch (err) {
@@ -136,16 +135,10 @@ export function provideSearchContext() {
     context.isLoading.value = true
     context.error.value = null
     try {
-      const filters = encodeURIComponent(JSON.stringify(context.tagFilters.value.map(tag => tag.label)))
-      const response = await fetch(`/api/scroll-chunks?filters=${filters}`)
-      if (!response.ok) {
-        throw new Error('Scroll pull request to internal server failed')
-      }
-      const responseText = await response.text()
-      if (!responseText) {
-        throw new Error('Empty response received from server')
-      }
-      const data = JSON.parse(responseText)
+      const filters = context.tagFilters.value.map(tag => tag.label)
+      const response = await scrollChunks(filters)
+      const data = await response
+      console.log('Scroll pull data:', data)
       context.results.value = data
     } catch (err) {
       console.error('Scroll pull error:', err)

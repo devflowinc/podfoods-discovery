@@ -24,7 +24,4 @@ export default defineNuxtConfig({
       ]
     }
   },
-  serverHandlers: [
-    { route: '/api/*', handler: '~/server/server.ts' }
-  ]
 })
