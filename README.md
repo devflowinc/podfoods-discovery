@@ -43,6 +43,13 @@ Trieve provides vector based search for semantic, fulltext, and hybrid modes whi
 
 ### Areas We Tried To Improve
 
+We made a few design decisions to help with the search experience:
+
+- Variant-level search results: Instead of seeing product groups with multiple variants (like seeing "August Tea Bags" when searching for [Orange Blossom Almond tea]), you'll see individual variant relevant to your query.
+- Precise recall for descriptive queries: We've simply included the ingredients, brand names, descriptions, and a bit of other metadata in the index to ensure that searching for something like [real fruit toaster pastries] will return toaster pastries that contain real fruit (instead of fruit shakes)
+- Search types: Switch between semantic, fulltext, and hybrid search modes to refine your search experience.
+- Incremental search: As you type, the search will update to show your results.
+
 ## How To Contribute
 
 Setup your local dev environment following the guide in the next section, fork the repo, and post a PR with your changes!
@@ -72,5 +79,8 @@ yarn dev
 ```
 
 ### Run the Crawler
+
+
+
 
 <!-- TODO: Include Bit for Creating a new Dataset and Changing ENV's; Fine to link out to docs for this -->
