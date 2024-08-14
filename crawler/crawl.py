@@ -1,6 +1,4 @@
 """This is a Selenium Web Scraper for the website https://podfoods.co/.
-
-The purpose is to conduct user testing on the search.
 """
 
 import os
@@ -18,6 +16,15 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.common.exceptions import StaleElementReferenceException, ElementClickInterceptedException, TimeoutException
 from selenium.webdriver.chrome.options import Options
 
+
+try:
+    with open('products.json', 'r') as file:
+        PRODUCTS = json.load(file)
+except FileNotFoundError:
+    logging.error("products.json file not found")
+    print("products.json file not found")
+    print("See README.md for instructions on how to populate a products.json file.")
+    exit()
 
 # Set up logging
 logging.basicConfig(
@@ -46,7 +53,7 @@ def extract_page(driver, url):
             EC.presence_of_element_located((By.CSS_SELECTOR, 'h1.pf-break-word'))
         )
 
-        product_info = driver.execute_script("""
+        product_info = driver.execute_script(r"""
         function extractProductInfo() {
             const productInfo = {};
 
@@ -137,9 +144,7 @@ def extract_page(driver, url):
 def main():
     driver = initialize_driver()
 
-    with open('products.json', 'r') as file:
-        products = json.load(file)
-    urls = [product['href'] for product in products if 'href' in product]
+    urls = [product['href'] for product in PRODUCTS if 'href' in product]
 
     extracted_urls = [page['url'] for page in json.load(open('pages.json', 'r'))]
     total_urls = len(urls)

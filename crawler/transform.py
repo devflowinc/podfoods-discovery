@@ -18,10 +18,7 @@ HOLIDAY_PICKS = [item['href'].split('.html')[0] + '.html' for item in holiday_pi
 
 transformed_pages = {}
 
-def process_pages(pages_file, chunks_file):
-    with open(pages_file, 'r', encoding='utf-8') as f:
-        pages = json.load(f)
-
+def process_pages(pages, chunks_file):
     chunks = []
     tracking_ids = set()
 
@@ -129,5 +126,14 @@ def process_pages(pages_file, chunks_file):
 pages_file = 'pages.json'
 chunks_file = 'chunks.json'
 
+try:
+    with open(pages_file, 'r', encoding='utf-8') as f:
+        pages = json.load(f)
+except FileNotFoundError:
+    logging.error("pages.json file not found")
+    print("pages.json file not found")
+    print("See README.md for instructions on how to populate a pages.json file from crawl.py.")
+    exit()
+
 # Process pages.json into chunks.json
-process_pages(pages_file, chunks_file)
+process_pages(pages, chunks_file)
