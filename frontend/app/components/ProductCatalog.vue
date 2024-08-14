@@ -8,7 +8,7 @@ import { watch, ref, onMounted } from 'vue'
 
 const route = useRoute()
 const router = useRouter()
-const { searchTerm, setSearchTerm, pages, setPageSize, performScrollPull } = useSearchContext()
+const { searchTerm, setSearchTerm, pages, setPageSize, tagFilters, performScrollPull } = useSearchContext()
 
 const isFirstLoad = ref(true)
 
@@ -41,9 +41,9 @@ const debouncedUpdateRoute = debounce(([newTerm, newPages]) => {
   }
 
   router.push({ query: Object.keys(query).length ? query : undefined })
-}, 300) // 300ms debounce delay
+}, 100)
 
-watch([searchTerm, pages], debouncedUpdateRoute)
+watch([searchTerm, pages, tagFilters], debouncedUpdateRoute)
 
 </script>
 
