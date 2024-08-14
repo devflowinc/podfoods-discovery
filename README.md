@@ -92,7 +92,7 @@ pip install -r requirements.txt
 
 #### Collect product page links
 
-Manually scroll through the product Catalog page and then use this script in the developer console to collect the product links: 
+Manually scroll through the product Catalog page ([podfoods.co/products](https://podfoods.co/products)) and then use this script in the developer console to collect the product links: 
 
 ```
 const articleData = Array.from(document.getElementsByTagName('article'))
