@@ -99,7 +99,6 @@ export function provideSearchContext() {
   const performSearch = async () => {
     const query = context.searchTerm.value.trim();
     if (query === "") {
-      context.results.value = [];
       return;
     }
 
@@ -108,15 +107,13 @@ export function provideSearchContext() {
     console.log("Searching for:", query);
     try {
       const filters = context.tagFilters.value.map((tag) => tag.label);
-      const response = await groupOrientedSearch(
+      const data = await groupOrientedSearch(
         query,
         context.pages.value,
         context.searchType.value,
         filters
       );
-      console.log("Search response:", response);
 
-      const data = await response;
       console.log("Search data:", data);
       context.results.value = data;
     } catch (err) {
