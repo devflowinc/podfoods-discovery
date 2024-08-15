@@ -29306,3 +29306,20 @@ justify-content:space-between}}
 
 .retailers .innovation img[data-v-4b738ad2]{
     height:auto}
+
+.hover-link {
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background: none;
+    padding: 2px 4px;
+    /* Adjust as needed */
+    display: inline-block;
+    transition: all 0.3s ease;
+    /* Smooth transition */
+}
+
+.hover-link:hover {
+    border: 1px solid rgb(217 70 239);
+    background: rgb(250 232 255);
+}
